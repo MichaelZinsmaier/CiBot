@@ -1,0 +1,46 @@
+/target
+/work
+
+
+########## file extensions (*.iml, ...)
+#
+#
+*.iml
+*.eml
+
+
+########## folders (build, bin, ...)
+#
+#
+bin/
+build/
+**/bin/
+**/build/
+
+
+########## specific folders  (root/.gradle, root/.idea, ...)  i.e. IDEA / Eclipse specific
+#
+#
+/.gradle/
+/.idea/
+/out/
+/.settings/
+**/.settings/
+**/test-output/
+/.checkstyle
+/out/
+
+
+# specific files  (root/.cache, root/.project, ....)  i.e. IDEA / Eclipse specific
+#
+#
+/main/src/main/resources/reference.conf
+/.cache
+/.classpath
+/.project
+**/.classpath
+**/.project
+**/.cache*
+main/runtimeLibs/
+main/native/
+

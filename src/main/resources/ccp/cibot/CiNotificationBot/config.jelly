@@ -1,0 +1,16 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:f="/lib/form">
+
+      <f:entry title="The Conversation ID" field="conversationId">
+       		<f:textbox />
+       	</f:entry>
+
+       <f:entry title="The username" field="username">
+         <f:textbox />
+       </f:entry>
+
+       <f:entry title="The password" field="password">
+         <f:textbox />
+     </f:entry>
+
+</j:jelly>
