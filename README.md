@@ -4,7 +4,7 @@ Circuit Continuous Integration Bot for Jenkins
 
 ## Features
 
-###NotificationBot
+#### NotificationBot
 - equivalent to Jenkins E-Mail Notification plugin
 - searches the history of a conversation for a topic matching the job name
 - or creates a new topic if nothing shows up
@@ -14,7 +14,7 @@ Circuit Continuous Integration Bot for Jenkins
   <a href="./doc/NotificationBotConfig.png"><img src="./doc/NotificationBotConfig.png" width="400"></a>
 </p>
 
-###SendMessageBot
+#### SendMessageBot
 - sends a message to a conversation
 - at a given time (using Jenkins cron config)
 - if a given condition is met (bind a variable to the send field)
@@ -23,7 +23,7 @@ Circuit Continuous Integration Bot for Jenkins
   <a href="./doc/MessageBotConfig.png"><img src="./doc/MessageBotConfig.png" width="400"></a>
 </p>
 
-###mixed
+#### mixed
 - proxy support for HTTP proxies
 - smiley support using Circuit image tags
 
