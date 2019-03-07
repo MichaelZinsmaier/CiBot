@@ -31,7 +31,7 @@ public class TokenEndpoint
                         .withConnectionProvider(connectionProvider)
                         .form("client_id", clientId)
                         .form("client_secret", clientSecret)
-                        .form("scope", "ALL")
+                        .form("scope", "WRITE_CONVERSATIONS,READ_CONVERSATIONS")
                         .form("grant_type", "client_credentials")
                         .send();
 
